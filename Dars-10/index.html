@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="todolist_container">
+        <div class="todolist_adder">
+            <form id="adder_form">
+                <div class="adder_wrapper">
+                    <input id="adder" class="wrapper_input" type="text"required minlength="3"  placeholder="Add  a new task..." >
+                    <i id="clear" class="fas fa-times"></i>
+                </div>
+                <button class="form_btn"> <i class="fas fa-plus"></i> Create</button>
+            </form>
+            <div class="adder_options">
+                <button class="delete_all">Delete all</button>
+                <select>
+                    <option value="">Alphabet</option>
+                    <option value="">Date</option>
+                </select>
+            </div>
+        </div>
+        <div id="collection">
+            
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

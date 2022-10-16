@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.todolist_container {
+    height: 800px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: #64646f33 0px 0px 29px 0px;
+}
+
+.todolist_adder {
+    position: relative;
+    width: 95%;
+    height: 200px;
+    box-shadow: #64646f33 0px 0px 29px 0px;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+
+#adder_form {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+}
+
+.adder_wrapper {
+    border-radius: 12px;
+    width: 100%;
+    height: 50px;
+    box-shadow: #64646f33 0px 0px 29px 0px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.wrapper_input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    text-indent: 10px;
+}
+
+.adder_wrapper>i {
+    color: red;
+    font-size: 18px;
+}
+
+.form_btn {
+    width: 120px;
+    font-size: 18px;
+    margin-left: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(26, 223, 26);
+    color: white;
+}
+
+.adder_options {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 10px;
+    padding: 0px 20px;
+}
+
+.adder_options>button {
+    border-radius: 15px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 10px 30px;
+
+}
+
+.adder_options>select {
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 24px;
+    border: none;
+    outline: none;
+    outline: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 7px;
+    padding-right: 2rem;
+}
+
+#collection>div {
+    width: 95%;
+    margin: 10px auto;
+    background-color: #fff;
+    height: 180px;
+    box-shadow: #64646f33 0px 0px 20px 0px;
+    padding: 15px;
+    border-radius: 12PX;
+}
+
+#collection {
+    height: 500px;
+    overflow: auto;
+}
+
+#collection>div>div>p {
+    word-wrap: break-word;
+}
+
+.containerPAcrive {
+    color: green;
+    font-size: 22px;
+}
